@@ -32,6 +32,7 @@ LOCAL_SHARED_LIBRARIES := \
     android.hardware.light@2.0
 
 LOCAL_MODULE := android.hardware.light@2.0-service.samsung
+LOCAL_VINTF_FRAGMENTS := android.hardware.light@2.0-service.samsung.xml
 LOCAL_INIT_RC := android.hardware.light@2.0-service.samsung.rc
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
