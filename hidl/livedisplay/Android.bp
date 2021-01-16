@@ -77,6 +77,7 @@ cc_binary {
 
 cc_binary {
     name: "vendor.lineage.livedisplay@2.0-service.samsung-qcom",
+    vintf_fragments: ["vendor.lineage.livedisplay@2.0-service.samsung-qcom.xml"],
     init_rc: ["vendor.lineage.livedisplay@2.0-service.samsung-qcom.rc"],
     defaults: ["livedisplay_samsung_qcom_defaults"],
     vendor: true,
